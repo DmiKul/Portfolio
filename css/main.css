@@ -4,6 +4,7 @@ body {
 	padding: 0;
 	margin: 0;
 	font-size: 18px;
+	font-weight: 400;
 	background:#F2F1EF;
 }
 
@@ -11,10 +12,15 @@ body {
 	box-sizing: border-box;
 }
 
-.container {
+.hero-container {
 	width: 1280px;
 	margin: 0 auto;
 	/* border: 2px solid red; */
+}
+
+.container {
+	width: 1060px;
+	margin: 0 auto;
 }
 
 .logo {
@@ -86,9 +92,7 @@ h1 {
 	margin-bottom: 40px;
 }
 
-.main-directions img {
-	width: 20px;
-}
+
 
 .btn-question {
 	background: black;
@@ -129,17 +133,62 @@ h1 {
 .directions {
 	background: black;
 	color: white;
-	transform: rotate(-4.93deg);
+	/* transform: rotate(-4.93deg); */
 	width: 1550px;
 	height: 64px;
-	margin-top: 110px;
+	margin: 110px auto 0 auto;
 	text-align: center;
 	padding-top: 18px;
-	left: -0.78%;
-	right: -1.08%;
-	position: absolute;
+	/* left: -0.78%;
+	right: -1.08%; */
+	
+	/* position: absolute; */
 }
 
 .direction {
 	margin: 0 55px 0 25px;
 }
+
+.wrapper-text1 span{
+	font-size: 23px;
+}
+
+h2 {
+	font-size: 56px;
+	font-weight: 400;
+	width: 351px;
+}
+
+.wrapper-text2 .p1 {
+	font-size: 31px;
+}
+
+.wrapper-text2 {
+	width: 612px;
+}
+
+.wrapper-text2 .p1 {
+	margin: 0;
+}
+
+.wrapper-text {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 123px;
+}
+
+.wrapper-mini-text {
+	display: flex;
+	justify-content: space-between;
+}
+
+.wrapper-mini-text .p1 {
+	color:#E94D35;
+	font-size: 12px;
+}
+
+.wrapper-mini-text1 .p1 {
+	color:#161513;
+	font-size: 23px;
+}
+
